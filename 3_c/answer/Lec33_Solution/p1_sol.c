@@ -9,11 +9,13 @@ struct Node
     struct Node* next;
 };
 
+
 struct Node* mergeTwoLists(struct Node* a, struct Node* b){
-    //write
+    // write your code here
     struct Node dummy;
     struct Node* tail = &dummy;
 
+    // while (a != NULL && b != NULL) {
     while (a && b) {
         if (a -> data > b -> data) {
             tail -> next = b;
@@ -24,7 +26,7 @@ struct Node* mergeTwoLists(struct Node* a, struct Node* b){
         }
         tail = tail -> next;
     }
-
+    
     if (a) {
         tail -> next = a;
     } else {
@@ -32,6 +34,7 @@ struct Node* mergeTwoLists(struct Node* a, struct Node* b){
     }
 
     return dummy.next;
+    ////////////////////
 }
     // DO NOT MODIFY BELOW
 

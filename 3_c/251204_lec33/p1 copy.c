@@ -3,36 +3,11 @@
 
 /* Linked list node structure */
 
-struct Node
-{
-    int data;
-    struct Node* next;
-};
+struct 
 
-struct Node* mergeTwoLists(struct Node* a, struct Node* b){
-    //write
-    struct Node dummy;
-    struct Node* tail = &dummy;
+struct 
 
-    while (a && b) {
-        if (a -> data > b -> data) {
-            tail -> next = b;
-            b = b -> next;
-        } else {
-            tail -> next = a;
-            a = a -> next;
-        }
-        tail = tail -> next;
-    }
 
-    if (a) {
-        tail -> next = a;
-    } else {
-        tail -> next = b;
-    }
-
-    return dummy.next;
-}
     // DO NOT MODIFY BELOW
 
 /* Function to create a new node */

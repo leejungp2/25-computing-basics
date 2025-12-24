@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* Linked list node structure */
 struct Node {
     int data;
     struct Node* next;
@@ -9,7 +10,7 @@ struct Node {
 typedef struct Node Node;
 
 /* Function to create a new node */
-struct Node * createNode(struct Node * newNode, int data) {
+struct Node * createNode(struct Node * newNode, int data){
     newNode = (struct Node *) malloc(sizeof(struct Node));
     newNode->data = data;
     newNode->next = NULL;
@@ -17,6 +18,7 @@ struct Node * createNode(struct Node * newNode, int data) {
 }
 
 struct Node * reverseList(struct Node * head) {
+    /* Write your code here */	
     struct Node * curr = NULL;
     struct Node * next;
 
@@ -28,7 +30,7 @@ struct Node * reverseList(struct Node * head) {
     }
 
     return curr;
-
+    ////////////////////
 }
 
 /* Do not modify below */	
@@ -45,12 +47,12 @@ int main(int argc, char* argv[])
     for (int k = 1; k <= length; k++) {
         curr = createNode(curr, atoi(argv[k]));
 
-        if (k > 1)
+    if (k > 1)
         prev->next = curr;
-        else
+    else
         head = curr;
 
-        prev = curr;
+    prev = curr;
     }
     /* Reverse linked list */
     head = reverseList(head);
