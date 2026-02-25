@@ -1,0 +1,27 @@
+Report for student Alice (20, alice@example.com)
+	ENG101: A-
+	MLDL101: A+
+Report for student Bob (22, bob@example.com)
+	CSCI101: B
+	CFDS101: A
+	MATH201: A-
+Report for student Charlie (21, charlie@example.com)
+	MATH201: B
+	CFDS101: A+
+	HIST101: A
+Report for gsds student David (23, david@example.com, advisor: professor Henry)
+	MLDL101: C+
+	CFDS201: A+
+	HIST101: B
+Report for gsds student Eve (25, eve@example.com, advisor: professor Isabel)
+	CSCI101: B+
+	CFDS101: A+
+	MLDL101: B+
+	ENG101: B
+Report for gsds student Frank (24, frank@example.com, advisor: professor Henry)
+	CFDS201: A+
+	MLDL201: B+
+Report for gsds student Grace (22, grace@example.com, advisor: professor John)
+	CSCI101: A-
+	MLDL201: B+
+	HIST101: A

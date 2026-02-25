@@ -1,0 +1,3 @@
+Data science is an interdisciplinary field
+Data science involves computing statistics and domain knowledge
+SNU GSDS offers world class data science programs

@@ -1,0 +1,10 @@
+CSCI101,Introduction to Computer Science,3
+MATH201,Calculus I,2
+ENG101,English Composition,2
+HIST101,Introduction to History,3
+PHYS101,Physics I,2
+CHEM101,Chemistry I,2
+MLDL101,Machine Learning and Deep Learning,2,1
+MLDL201,Machine Learning and Deep Learning,3,1
+CFDS101,Computing for Data Science,3,2
+CFDS201,Computing for Data Science,2,1
